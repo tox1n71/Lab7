@@ -20,10 +20,9 @@ public class DataProvider {
     String password;
 
     public DataProvider(String username, String password) {
-//        this.url = "jdbc:postgresql://localhost:5555/studs";
+//        
         this.url = "jdbc:postgresql://localhost:5432/studs";
-//        this.username = "s368791";
-//        this.password = "7qc3bUPfUtx4bI0P";
+//      
         this.username = username;
         this.password = password;
     }
